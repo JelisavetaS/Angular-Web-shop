@@ -1,0 +1,61 @@
+[
+    {
+        "productId": 101,
+        "name": "Fenty beauty - Pro Filt'r soft matte longwear foundation",
+        "price": 34,
+        "description": "The Pro Filt'r long-wearing foundation instantly gives the skin a smooth, matte finish and an ultra-natural effect. It works easily for medium to total coverage." 
+    },
+    {
+        "productId": 102,
+        "name": "Fenty beauty - Gloss Bomb",
+        "price": 18,
+        "description": "Gloss Bomb is the supreme gloss that brings an irresistible shine to your lips while nourishing them."
+    },
+    {
+        "productId": 103,
+        "name": "Tarte - Shape Tape contour concealer", 
+        "price": 27,  
+        "description": "This total matt, ultra-blurable formula instantly helps to brighten, smooth & give the skin a firmer and lifted appearance. Full coverage with flawless matte finish."
+    },
+    {
+        "productId": 104,
+        "name": "Laura Mercier - Translucent Loose Setting Powder", 
+        "price": 44,  
+        "description": "Light, satiny and silky loose powder. Non-greasy, it fixes makeup to extend the hold, while giving a natural look, without mask or powder effect."
+    },
+    {
+        "productId": 105,
+        "name": "Urban Decay - All Nighter Long Lasting Makeup Setting Spray", 
+        "price": 32,  
+        "description": "Our All Nighter Makeup Fixing Spray spreads over makeup without the effect of material for a perfect hold for 16 hours, without leaking, turning, drying out or migrating into the folds of the face."
+    },
+    {
+        "productId": 106,
+        "name": "Urban Decay - Eyeshadow Primer Potion", 
+        "price": 22,  
+        "description": "Eyeshadow Primer Potion is the essential base for a long-lasting eyeshadow."
+    },
+    {   "productId" : 107,
+        "name": "Urban Decay - 24/7 Glide-On Eye Pencil", 
+        "price": 21,  
+        "description": "Pigmented, shiny and a bit spangled, they adapt to all tastes: around the eyes as an eyeliner, inside the eye in kohl or over the entire eyelid like an eye shadow... Rich in vitamin E and Jojoba oil, its formula ensures an extra long lasting 24/7!"
+    },
+    {
+        "productId" : 108,
+        "name": "Benefit Cosmetics - The POREfessional Face Primer", 
+        "price": 37,  
+        "description": "Quickly reduce the visibility of pores and fine lines for smoother skin. The translucent formula of our foundation contains a derivative of vitamin E, known to combat the harmful effects of free radicals."
+    },
+    {
+        "productId" : 109,
+        "name": "Too Faced - Natural Lust Eye Shadow Palette ", 
+        "price": 59,  
+        "description": "The Natural Lust Eyeshadow Palette is made up of a selection of 30 shades: neutral tones, bewitching smoky shades and charming bright colors, available in multiple finishes for irresistible natural beauty."
+    },
+    {
+        "productId" : 110,
+        "name": "BECCA Cosmetics - Skin Love Weightless Blur Foundation", 
+        "price": 39.90,  
+        "description": "A light foundation, with medium modular coverage and a velvety mat finish for a soft and radiant health effect."
+    }
+]
