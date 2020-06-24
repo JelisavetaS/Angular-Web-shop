@@ -4,6 +4,7 @@ import { Product } from '../models/product.model';
 @Injectable({
   providedIn: 'root'
 })
+
 export class CartService {
   private items: Product[] = [];
 

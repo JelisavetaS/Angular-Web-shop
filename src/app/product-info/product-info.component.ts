@@ -1,11 +1,10 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, Output, OnDestroy , EventEmitter} from '@angular/core';
 import { Product } from './../models/product.model';
 import { ProductService } from './../services/product.service';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { CartService } from '../services/cart.service';
 import { HttpClient } from '@angular/common/http'
-import { map } from 'rxjs/operators'
 
 @Component({
   selector: 'app-product-info',
@@ -14,6 +13,10 @@ import { map } from 'rxjs/operators'
 })
 export class ProductInfoComponent implements OnInit, OnDestroy {
   public product: Product;
+
+  @Output()
+  public emitSignal : EventEmitter<Object> =  new EventEmitter<Object>();
+
 
   private paramMapSub: Subscription = null;
 
@@ -45,8 +48,8 @@ export class ProductInfoComponent implements OnInit, OnDestroy {
     }
   }
 
-  public addToCart(){
-    this.cartService.addToCart(this.product);
+  public addToCart(product){
+    this.emitSignal.emit(product);
   }
 
 }

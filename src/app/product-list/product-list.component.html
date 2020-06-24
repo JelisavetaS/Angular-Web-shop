@@ -1,9 +1,14 @@
 <h2>Products</h2>
 <hr>
 
-<div *ngFor = "let product of products | async">
+<div *ngFor = "let product of products | async" class="box">
+    <img src="{{product.picture}}" class="imgProducts">
     <h4>{{ product.name }}</h4>
-    <p>Price: {{ product.price | currency:'EUR'}}</p>
+    <p><b>Price: {{ product.price | currency:'EUR'}}</b></p>
+    <div class="setspace">
     <a class="btn btn-primary" [routerLink] = "['/products', product.productId]"> More about product </a>
-    <hr>
+    </div>
+    <hr class="setspace">
 </div>
+
+

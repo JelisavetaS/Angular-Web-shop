@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "web-shop"
+    }
+  },
+  "defaultProject": "web-shop",
+  "cli": {
+    "analytics": false
+  }
 }

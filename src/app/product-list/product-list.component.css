@@ -1,0 +1,17 @@
+.imgProducts {
+    height: 200px;
+    width: 200px;
+    top: 0;
+    float: right;
+}
+
+.box {
+    height: 240px;
+}
+
+.setspace {
+    position: relative;
+    bottom: -35%;
+}
+
+

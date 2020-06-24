@@ -1,10 +1,12 @@
 <h2> More about product</h2>
 <hr>
 
-<div> 
-    <h3>{{ product.name }}</h3>
-    <h4>{{ product.price | currency:'EUR'}}</h4>
+<div *ngIf="product"> 
+    <img src="{{product.picture}}" class="imgProducts">
+    <h3 >{{ product.name }}</h3>
+    <h4><b>{{ product.price | currency:'EUR'}}</b></h4>
     <p>{{ product.description }}</p>
 
-    <button class="btn btn-primary" (click)="addToCart()">Add to cart</button>
+    <button class="btn btn-primary" (click)="addToCart(product)">Add to cart</button>
+   
 </div>
