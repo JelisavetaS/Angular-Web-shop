@@ -1,9 +1,9 @@
-<h2>Checkout</h2>
+<h2> Checkout </h2>
 <hr>
 
 <div *ngIf="items.length > 0; else noItems">
     <p>Your current cart includes these items:</p>
-    <div class="alert alert-info" *ngFor="let product of items">
+    <div style="background-color:#ccccff" class="alert alert-info" *ngFor="let product of items">
         <h4>{{ product.name }}</h4>
         <hr>
         <h6>{{ product.price | currency:'EUR' }}</h6>
@@ -32,8 +32,7 @@
         </div>
         <p class="error-message" *ngIf="email.errors?.required"> E-mail is required</p>
         <p class="error-message" *ngIf="email.errors?.email"> E-mail is not correct</p> 
-        
-        <button type="submit" class="btn btn-primary btn-block" [disabled]="!checkoutForm.valid">Purchase</button>
+        <button style="background-color:#ccccff; border-color:#9999ff; color:#00001a" type="submit" class="btn btn-primary btn-block" [disabled]="!checkoutForm.valid">Purchase</button>
     </form>
 </div>
 

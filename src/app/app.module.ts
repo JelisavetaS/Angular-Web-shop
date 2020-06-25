@@ -10,7 +10,8 @@ import { CartComponent } from './cart/cart.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { SumPipe } from './pipes/sum.pipe';
 import { HttpClientModule } from '@angular/common/http';
-import { ParentProductInfoComponent } from './parent-product-info/parent-product-info.component' 
+import { ParentProductInfoComponent } from './parent-product-info/parent-product-info.component';
+import { KeyWordsDirective } from './key-words.directive' 
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ParentProductInfoComponent } from './parent-product-info/parent-product
     CartComponent,
     NavigationComponent,
     SumPipe,
-    ParentProductInfoComponent
+    ParentProductInfoComponent,
+    KeyWordsDirective
   ],
   imports: [
     BrowserModule,

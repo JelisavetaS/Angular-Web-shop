@@ -1,12 +1,12 @@
-<h2>Products</h2>
+<h2> Products </h2>
 <hr>
 
 <div *ngFor = "let product of products | async" class="box">
     <img src="{{product.picture}}" class="imgProducts">
-    <h4>{{ product.name }}</h4>
+    <h4><span appKeyWords>{{ product.name }}</span></h4>
     <p><b>Price: {{ product.price | currency:'EUR'}}</b></p>
     <div class="setspace">
-    <a class="btn btn-primary" [routerLink] = "['/products', product.productId]"> More about product </a>
+    <a style="background-color:#ccccff; border-color:#9999ff; color:#00001a" class="btn btn-primary" [routerLink] = "['/products', product.productId]"> More about product </a>
     </div>
     <hr class="setspace">
 </div>
